@@ -13,6 +13,16 @@ Two circuits built around an NE555P timer running in **astable mode**, where it 
 
 Schematics and the PCB were provided by OPS. The PCB was designed by the club in KiCad.
 
+## Demo videos
+
+- [A: LED blinker on breadboard](media/a-led-blinker-breadboard.mp4)
+- [B: 555 Piano on breadboard](media/b-piano-breadboard.mp4) (with sound)
+- [C: 555 Piano soldered to PCB](media/c-piano-pcb.mp4) (with sound)
+
+<img src="media/piano-breadboard.jpg" alt="555 Piano breadboard build: NE555P, three tactile buttons, piezo buzzer" width="400">
+
+*Breadboard build of the piano, before soldering.*
+
 ## How the 555 works here
 
 In astable mode, the timing capacitor repeatedly charges through R1 + R2 and discharges through R2 into the **discharge pin (pin 7)**. The output (pin 3) is high while the capacitor charges and low while it discharges.

@@ -5,6 +5,8 @@
 
 A switched LED circuit powered by a 9V battery: prototyped on a breadboard, then soldered onto perfboard.
 
+**Demo video:** [perfboard-led-demo.mp4](media/perfboard-led-demo.mp4) (the switch toggling the soldered LED)
+
 ## Circuit
 
 9V battery → slide switch → current-limiting resistor → LED → back to the battery.
